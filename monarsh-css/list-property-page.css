@@ -1,0 +1,22 @@
+#firstname{
+  background-color: #F1F1F3;
+}
+.show{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+#submit{
+     background-color: #022A66;
+  border: 2px solid #022A66;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+
+}
+.cont{
+  color: white;
+  background-color: #022A66;
+  padding: 3px;
+  border-radius: 5px;
+}
