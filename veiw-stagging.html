@@ -47,7 +47,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="stagging.html">Stagging</a></li>
-              <li><a class="dropdown-item" href="photography-page.html">photography-page</a></li>
+              <li><a class="dropdown-item" href="photography-page.html">Photography</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -193,11 +193,10 @@
     </div>
 
     <hr class="border-secondary my-4">
-
-    <!-- Bottom Row -->
-    <div class="row align-items-center">
+      <div class="row align-items-center">
       <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-        <p class="foot mb-0">&copy; 2023 Monarsh Properties. All Rights Reserved. 
+        <p class="foot mb-0">
+          &copy; <span id="currentYear"></span> Monarsh Properties. All Rights Reserved. 
           <a href="#" class="text-white text-decoration-none">Terms & Conditions</a>
         </p>
       </div>
@@ -213,29 +212,8 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-function playVideo() {
-  const modal = document.getElementById('videoModal');
-  const iframe = document.getElementById('videoFrame');
-  iframe.src = "https://www.youtube.com/embed/LXb3EKWsInQ"; // Replace with your actual video
-  modal.style.display = "flex";
-}
+<script src="monarsh-javascript/index.js"></script>
 
-function closeVideo() {
-  const modal = document.getElementById('videoModal');
-  const iframe = document.getElementById('videoFrame');
-  iframe.src = ""; // Stop the video
-  modal.style.display = "none";
-}
-
-function prevSlide() {
-  alert("Go to previous slide");
-}
-
-function nextSlide() {
-  alert("Go to next slide");
-}
-</script>
 
 
 </body>

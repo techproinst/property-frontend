@@ -13,7 +13,9 @@
 
 </head>
 <body class="main-body">
-<section class="main bg-dark text-white py-2">
+
+
+  <section class="main bg-dark text-white py-2">
   <p class="main1 text-center mb-2">
     ✨ Discover Your Dream Property with Monarsh Properties 
     <a class="main2 ms-2" href="#">Learn More</a>
@@ -50,7 +52,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="stagging.html">Stagging</a></li>
-              <li><a class="dropdown-item" href="photography-page.html">photography-page</a></li>
+              <li><a class="dropdown-item" href="photography-page.html">Photography</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -71,6 +73,7 @@
   </nav>
 </section>
 
+
 <section class="products p-0 m-0">
   <div class="container">
     <div class="row">
@@ -90,8 +93,8 @@
 
         <div class="py-5">
           <div class="d-flex">
-            <a class="buy-sell" href="">BUY</a>
-            <a class="buy-sell2" href="">SELL</a>
+            <a class="buy-sell" href="property-page.html">BUY</a>
+            <a class="buy-sell2" href="list-property-page.html">SELL</a>
           </div>
           <div class="d-flex flex-column flex-lg-row col-md-7 justify-content-between action">
     
@@ -216,25 +219,29 @@
 </section>
 
 
+
+
 <section id="sold" class="py-5 px-3">
   <div class="container">
+    <!-- Header -->
     <div>
       <h2 class="mb-3 property text-center">Featured Properties</h2>
       <p class="Property2 text-center">
         Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Monarsh Properties. Click "View Details" for more information.
       </p>
     </div>
-      
 
-    <div class="container">
-  <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mx-auto">
-    <a id="text" class="text-decoration-none" href="">All Feature Properties</a>
-    <a id="text" class="text-decoration-none" href="">Available Properties</a>
-    <a id="text" class="text-decoration-none" href="">Sold Properties</a>
-  </div>
-</div>
+    <!-- Filter Buttons -->
+    <div class="mt-4 text-center">
+      <div class="prop d-inline-block px-3 py-2">
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+          <a id="filter-all" class="btn custom-btn" href="#">All Feature Properties</a>
+          <a id="filter-available" class="btn custom-btn" href="#">Available Properties</a>
+          <a id="filter-sold" class="btn custom-btn" href="#">Sold Properties</a>
+        </div>
+      </div>
+    </div>
 
-    <!-- Image Grid -->
     <div class="container mt-5">
       <div class="row">
         <!-- Repeat for all 6 cards -->
@@ -301,7 +308,7 @@
         <div class="col-12 col-sm-6 col-md-4 mb-4">
           <div id="seaside3" class="card h-100" data-aos="zoom-in-up">
              <span class="status available"><i class="fas fa-crown"></i>
-AVAILABLE</span>
+              AVAILABLE</span>
             <img src="images/Image (43).png" class="card-img-top" alt="">
             <div class="card-body">
               <h5 id="seaside1" class="card-title">Seaside Serenity Villa 3</h5>
@@ -311,11 +318,9 @@ AVAILABLE</span>
           </div>
         </div>
       </div>
-
-      <div>
+        <div>
         <p id="browse"> <a class="text-decoration-none text-white" href="property-page.html">Browse All Properties</a></p>
       </div>
-    </div>
   </div>
 </section>
 
@@ -349,10 +354,26 @@ AVAILABLE</span>
       </div>
     </div>
   </div>
-     
      </div>
 
-</section>
+    </section>
+
+
+    <!-- <section>
+  <div class="container">
+    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+      <div class="mb-2 mb-sm-0">
+        <p class="mb-0 text-center text-sm-start">01 of 60</p>
+      </div>
+      <div class="d-flex justify-content-center justify-content-sm-start gap-3">
+        <i id="prevBtn" class="bi bi-arrow-left-circle-fill fs-3" style="cursor: pointer;"></i>
+        <i id="nextBtn" class="bi bi-arrow-right-circle-fill fs-3" style="cursor: pointer;"></i>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
 
 
 <section id="click">
@@ -434,7 +455,10 @@ AVAILABLE</span>
       </div>
     </div>
   </div>
+    </div>
+  </div>
 </section>
+
 
 
 <section id="question">
@@ -616,11 +640,10 @@ AVAILABLE</span>
     </div>
 
     <hr class="border-secondary my-4">
-
-    <!-- Bottom Row -->
-    <div class="row align-items-center">
+      <div class="row align-items-center">
       <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-        <p class="foot mb-0">&copy; 2023 Monarsh Properties. All Rights Reserved. 
+        <p class="foot mb-0">
+          &copy; <span id="currentYear"></span> Monarsh Properties. All Rights Reserved. 
           <a href="#" class="text-white text-decoration-none">Terms & Conditions</a>
         </p>
       </div>

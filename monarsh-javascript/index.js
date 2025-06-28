@@ -68,3 +68,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+  console.log("AOS initialized");
+
+
+
+
+  
+
